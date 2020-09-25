@@ -331,6 +331,16 @@ a:hover {
   .h2-big {
     font-size: 3rem;
   }
+  .block1 {
+    padding:0.5rem!important;
+  }
+  .block1 img {
+    margin-top: 2rem;
+  }
+  .block1 .card-body {
+    display: flex;
+    align-items: center;
+  }
   .block2 .d-flex{
     flex-direction: column;
     text-align: center;
