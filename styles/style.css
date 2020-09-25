@@ -50,10 +50,6 @@ a:hover {
   font-size: 1.35rem;
 }
 
-
-
-
-
 .fit-contain {
   object-fit: contain;
 }
@@ -301,6 +297,9 @@ a:hover {
 }
 
 @media all and (max-width: 991px) {
+  .logo {
+    height: 90px;
+  }
   .navbar-nav {
     padding-left: 0!important;
   }
@@ -315,16 +314,9 @@ a:hover {
 }
 
 @media all and (max-width: 600px) {
-  /*.grid-container {*/
-  /*  display: block;*/
-  /*}*/
-  /*.card {*/
-  /*  margin-bottom: 2rem;*/
-  /*}*/
-  /*.card:not(.block6) {*/
-  /*  padding: 2rem;*/
-  /*}*/
-
+.logo {
+  height: 70px;
+}
   h2 {
     font-size: 1.7rem;
   }
