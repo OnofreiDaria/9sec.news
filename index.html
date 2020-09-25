@@ -14,6 +14,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/bootstrap.min.css">
   <link rel="stylesheet" href="styles/style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-white mb-5">
     <div class="container-fluid">
@@ -26,18 +28,22 @@
         </style>
         <use id="Layer 11" href="#img1" x="0" y="0" />
       </svg>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="pl-4 navbar-nav">
-          <li class="nav-item active">
+          <li class="nav-item active mr-4">
             <a class="nav-link">Principala <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item mx-4">
+          <li class="nav-item mr-4">
             <a class="nav-link">Catalog</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item mr-4">
             <a class="nav-link">Noutăți</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item mr-4">
             <a class="nav-link">Blog</a>
           </li>
           <li class="nav-item">
@@ -81,15 +87,16 @@
           <h2>NO BVF</h2>
         </div>
       </div>
-      <div class="card pt-5 pl-4 block5">
+      <div class="card pb-0 pt-5 pl-4 block5">
         <div class="d-flex align-items-center h-100">
-          <div class="card-body">
-            <img src="images/Iphone11-1.png" class="card-img w-auto float-right mr-n5" alt="recycle">
+          <div class="card-body p-0">
+            <img src="images/Iphone11-1.png" class="card-img w-auto float-right mr-n5 p-0" alt="recycle">
+            <div class="bg_linear-gradient"></div>
             <div class="card-img-overlay d-flex flex-column justify-content-center">
               <h4 class="font-weight-bolder">
                 <img src="images/apple-logo.png" class="align-baseline">
                 IPhone 12</h4>
-              <h2>4 optic cameras</h2>
+              <h2>4 optic<br> cameras</h2>
             </div>
           </div>
 <!--          <div class="card-body pt-0 pb-0 pr-0">-->
@@ -145,101 +152,6 @@
 
   </div>
 </div>
-
-
-<!--  <div class="container-fluid mb-5">-->
-<!--    <div class="row align-items-stretch">-->
-<!--      <div class="col col-sm-6 col-md-3">-->
-<!--        <div class="card p-4 text-center mb-4">-->
-<!--          <img src="images/phone.png" class="card-img-top" alt="phone">-->
-<!--          <div class="card-body p-0">-->
-<!--            <h5 class="card-title">100% recyclable fiber package</h5>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--        <div class="card mb-4 p-4">-->
-<!--          <div class="bg_linear-gradient"></div>-->
-<!--          <div class="card-body pt-0 pb-0 pr-0">-->
-<!--            <h2>No FRP</h2>-->
-<!--            <h2>NO CHARGER</h2>-->
-<!--            <h2>NO BATTERY</h2>-->
-<!--            <h2>NO BVF</h2>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--        <div class="card text-center p-4">-->
-<!--          <img src="images/recicle.png" class="card-img-top w-25 mb-3 mx-auto" alt="phone">-->
-<!--          <div class="card-body p-0">-->
-<!--            <h5 class="card-title text-center">Transitioning to 100% renewable energy for-->
-<!--              Apple products</h5>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-
-<!--      <div class="col col-sm-6 col-md-6">-->
-<!--        <div class="card mb-4 p-4">-->
-<!--          <div class="d-flex">-->
-<!--            <img src="images/recicle.png" class="card-img w-auto" alt="recycle">-->
-<!--            <div class="card-body pt-0 pb-0 pr-0">-->
-<!--              <h2>100% recycled rare earth</h2>-->
-<!--              <h4>in the taptic engine</h4>-->
-<!--            </div>-->
-
-<!--          </div>-->
-<!--        </div>-->
-<!--        <div class="card mb-4 pt-4 pl-4">-->
-<!--          <div class="d-flex align-items-center">-->
-<!--            <div class="card-body pt-0 pb-0 pr-0">-->
-<!--              <h4>-->
-<!--                <img src="images/apple-logo.png" class="align-baseline">-->
-<!--                IPhone 12</h4>-->
-<!--              <h2>4 optic cameras</h2>-->
-<!--            </div>-->
-<!--            <img src="images/Iphone11-1.png" class="card-img w-auto" alt="recycle">-->
-<!--          </div>-->
-<!--        </div>-->
-<!--        <div class="row align-items-stretch">-->
-<!--          <div class="col col-sm-12 col-md-4">-->
-<!--            <div class="card p-4">-->
-<!--              <img src="images/charge.png" class="card-img h-auto">-->
-<!--              <div class="card-img-overlay">-->
-<!--                <h5 class="card-title text-right">Wireless<br>-->
-<!--                  Charger</h5>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--          <div class="col col-sm-12 col-md-8">-->
-<!--            <div class="card text-center h-100">-->
-<!--              <div class="card-body d-flex align-items-center justify-content-center">-->
-<!--                <h2 class="h2-big text_dark-grey font-weight-bold mb-0">Aresnic free glass</h2>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
-
-<!--      </div>-->
-
-<!--      <div class="col col-sm-6 col-md-3">-->
-
-<!--        <div class="card mb-4">-->
-<!--          <div class="card-body text-center">-->
-<!--            <h5 class="card-title">100% virgin wood</h5>-->
-<!--            <img src="images/tree.png" alt="tree">-->
-<!--          </div>-->
-<!--        </div>-->
-<!--        <div class="card">-->
-<!--          <img src="images/battaries.png" class="card-img">-->
-<!--          <div class="card-img-overlay text-white p-0">-->
-<!--            <div class="bg_radial-gradient h-100 d-flex flex-column align-items-center justify-content-center p-5 text-center">-->
-<!--              <h2 class="card-title mb-3">100%<br>-->
-<!--                recyled<br>-->
-<!--                battery</h2>-->
-<!--              <h5>in the taptic engine</h5>-->
-<!--            </div>-->
-
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
 
 </body>
 </html>

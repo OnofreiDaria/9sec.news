@@ -19,6 +19,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/font" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -41,7 +42,7 @@
       <workItem from="1600938401834" duration="2811000" />
       <workItem from="1600946145522" duration="12259000" />
       <workItem from="1600969817985" duration="21000" />
-      <workItem from="1601020960655" duration="1696000" />
+      <workItem from="1601020960655" duration="4972000" />
     </task>
     <servers />
   </component>
